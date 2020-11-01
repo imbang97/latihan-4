@@ -1,0 +1,554 @@
+body{
+	background-image:url("webbg.jpg") ;
+	background-color: #333;
+	background-size: 100% 100%auto;
+	background-size: 2000px;
+	min-height: 700px;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	margin: 20;
+	position: center;
+
+}
+
+input[type="text"] , [type="password"] {
+	width: 130px;
+	height: 15px;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+	border: 10px;
+	line-height: 13px;
+	transition-duration: 0.6s;
+	border-radius: 12px ; 
+	list-style: none;
+	position: relative;
+	top: -120px;
+	color: black;
+	z-index: 1;
+}
+
+.textarea{
+	position: relative;
+	top: -120px;
+}
+
+.form-input b{
+	position: relative;
+	top: 29px;
+}
+
+.form-input textarea{
+	position: relative;
+}
+
+.form-input .date{
+	position: relative;
+	top: -120px;
+}
+
+.login{
+	border: none;
+	padding:16px 30px;
+	background:#44d580;
+	border-radius: 5px;
+	cursor:pointer;
+	list-style: none;
+	font-style: bold;
+}
+
+.radio{
+	color: white;
+}
+
+.menu{
+	position: center;
+	margin: 100px 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu .h1{
+	text-align: center;
+	width: 50px;
+	height: 0 auto;
+}
+
+.menu ul{
+	position: center;
+}
+
+
+.menu li{
+	background-color:#333; 
+	list-style-type: none;
+	float: left;
+	width: 92px;
+	height: 30px;
+	padding: 20px; /*==ukuran bg text==*/
+	text-align: center;
+	cursor: pointer;
+	line-height: 20px;
+	transition-duration: 0.6s;
+	border: 1px #4d001f;
+	border-radius: 12px ; 
+	position: relative;
+	top: -34px;
+	left: 60px;
+	font-size: 20px;
+}
+
+.menu li:hover {
+	background-color:#fb099a;
+}
+
+.menu li ul li{
+	position: relative;
+	right: 60px;
+	top: 30px;
+}
+
+.menu li ul { /*==download==*/
+	display: none;
+	position: relative;
+	right: 120px;
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.menu ul li span.arrow{ /*==tanda kecil==*/
+	border:6px solid transparent;
+	border-top:9px solid #fff;
+	position: absolute;
+	top: 25px;
+	left: 110px; 
+}
+
+.menu li:hover ul {
+	display: block;
+	animation: 3s;
+	position: relative;
+}
+
+@keyframes drop{
+	0%{
+		opacity: 0;
+		left: -100%
+	}
+
+	50%{
+		opacity: 1;
+		left: -400px
+	}
+
+	100%{
+		opacity: 1;
+		left: 10px;
+	}
+
+}
+
+
+.header{ /*==header The Dying One==*/
+	background-color: #333;
+	background-image: url("webbg.jpg");
+	margin: 20px auto;
+	margin-left: center;
+	width: 932px;
+	height: 210px;
+	margin-top: 30px;
+	color: #99003d;
+	border:1px 0;
+	border-radius: 10px;
+}
+
+.header h1{ /*==text header==*/
+		font-size: 50px;
+		font-family: arial black;
+		position: relative;
+		top: 20px;
+}
+ 
+.nav{ /*====list====*/
+	float: left;
+	background-color: #333;
+	margin-top: 3px;
+	height: 200px;
+	width: 170px;
+	position: relative;
+	right: 720px;
+	top: 67px;
+	border: 1px;
+	border-radius: 5px; 
+	color: #fff;
+	font-size: 25px;
+	font-family: arial black;
+	opacity: 0.7;
+}
+
+.nav ul{ /*===LIST====*/
+	font-size: 15px;
+	font-family: arial black;
+	position: relative;
+	right: 10px;
+	top: -235px;
+	letter-spacing: relative;
+	top: 10px;
+	color:   #fff;
+}
+
+.navi{  /*===BERITA====*/
+	float: left;
+	background-color: #333;
+	margin-top: 3px;
+	height: 200px;
+	width: 170px;
+	position: relative;
+	right: -750px;
+	top: -135px ;
+	border: 1px;
+	border-radius: 5px; 
+	color: #fff;
+	font-size: 25px;
+	font-family: arial black;
+	opacity: 0.7;
+}
+
+.navi h5{ /*===BERITA====*/
+	font-size: 14px;
+	font-family: arial black;
+	position: relative;
+	right: -14px;
+	letter-spacing: relative;
+	top: -20px;
+	color:   #fff;
+	opacity: .7px;
+}
+
+.navi img{ /*===Logo koma===*/
+	position: relative;
+	right: -10px;
+	height: 50px; /*==tinggi==*/
+	width: 150px;
+}
+
+.navi a{
+	background-color:white; 
+	list-style-type: none;
+	float: left;
+	width: 40px;
+	height:10px;
+	padding: 10px; /*==ukuran bg text==*/
+	text-align: center;
+	cursor: pointer;
+	line-height: 20px;
+	transition-duration: 0.6s;
+	border: 1px #4d001f;
+	border-radius: 12px ; 
+	position: relative;
+	top: 34px;
+	left: 100px;
+}
+
+.navi a{
+	font-size: 15px;
+	position: relative;
+	right: 90px;
+	top: -7px;
+	color:black;
+	text-decoration: none;
+}
+
+.navi a:hover {
+	background-color:#fb099a;
+}
+
+.logout a{
+	background-image: url("webbg.jpg");
+	list-style: none;
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding:10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: arial black;
+	color: white;
+	list-style: none;
+	cursor: pointer;
+	line-height: 20px;
+	transition-duration: 0.6s;
+	border: 1px #44d580; 
+	border-radius: 12px;
+	position: relative;
+	top: -350px;
+	left: 670px;
+
+}
+
+body .container{
+	margin: 0px auto;
+	background-image: url("webbg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	top: -200px;
+			
+		}
+
+.topik{
+	width: 500px;
+	height: 460px;
+	background-color: black;
+	margin: auto;
+	text-align: center;
+	margin-top: 150px;
+	border-radius: 5px;
+	opacity: .7;
+	position: relative;
+	top: 20px;
+}
+
+.topik img{
+	width: 110px;
+	height: 110px;
+	border-style: 500px
+	background:white;
+	padding: 1px;
+	color: white;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	position: relative;
+	top: -20px;
+}
+
+.human img{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: -230px;
+	right: 150px;
+}
+
+.key img{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: -140px;
+	right: 150px;
+}
+
+
+/*=====FOOTER====*/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height: 70%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	opacity: 0.7;
+	padding: 55px 50px;
+	margin-top: 80px;
+	position: relative;
+	top: -50px;
+	border: 1px;
+	border-radius: 9px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+	position: relative;
+	top: -55px;
+}
+
+.footer-distributed h4{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+	position: relative;
+	top: -575px;
+	right: -340px;
+	font-size: 20px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+	position: relative;
+	top: -80px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	position: relative;
+	top: -90px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+	position: relative;
+	top: -40px;
+	right: 20px;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	font-size: 10px;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+	position: relative;
+	top: -40px;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.footer-right img{
+	position: relative;
+	top: -120px;
+	right: -160px;
+	height: 70px;
+	width: 70px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+
+
+/*====slideshow
+.mySlides {
+  display:none;
+  position: top;
+  top: -240px;
+}
+
+.gambar img{
+  size: 271px 375px ;
+  position: relative;
+  top: 30px;
+  right: -290px;
+}
+
+.w3-right{
+  cursor: pointer;
+  position: relative;
+  top: -200px;
+  right: 270px;
+}
+.w3-left{
+  cursor: pointer;
+  position: relative;
+  top: -200px;
+  left: 280px;
+
+}
+,.w3-badge {
+  cursor:pointer;
+  position: relative;
+  top: -200px;
+
+
+}
+.w3-badge {
+  position: relative;
+  top: -200px;
+  height:13px;
+  width:13px;
+  padding:0;
+}
+====*/
